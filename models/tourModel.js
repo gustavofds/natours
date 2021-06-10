@@ -172,10 +172,10 @@ tourSchema.pre(/^find/, function (next) {
   next();
 });
 
-tourSchema.post(/^find/, function (docs, next) {
-  console.log(`Query took ${Date.now() - this.start} miliseconds!`);
-  next();
-});
+// tourSchema.post(/^find/, function (docs, next) {
+//   console.log(`Query took ${Date.now() - this.start} miliseconds!`);
+//   next();
+// });
 
 // Desativamos pra parar de dar conflito c Geospatial Aggregation
 // AGGREGATION MIDDLEWARE
