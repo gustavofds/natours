@@ -15,3 +15,5 @@ Technologies used in this project:
 - Pug;
 - Git;
   and many more
+
+Up and running at: https://natours-gustavofds.herokuapp.com/
